@@ -1,0 +1,89 @@
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+body{
+    background-image: url("https://pix4free.org/assets/library/2020-12-13/originals/beach013.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ } 
+
+ h1{
+    animation: bounce 1.5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    font-size: 60px;
+    color: rgb(227, 136, 71);
+  -webkit-text-fill-color: rgb(233, 162, 63); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgba(24, 18, 18, 0.774);
+ }
+h1, h2{
+    color:rgb(155, 115, 87);
+    text-align: center;
+}
+
+h2{
+    color:white;
+    text-shadow:2px 2px 5px black;
+}
+
+ul{
+    border-style:inset;
+    color: white;
+    margin-right:50px;
+    display: inline-block; 
+	text-align: center; 
+}
+
+img{
+    margin:auto ;
+    display: block; 
+}
+
+div.container {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    font-size:100px;
+    align-items: center;
+}
+table, th, td {
+    border: 1px solid;
+  }
+  td {
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+  }
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 249, 249);
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 24px;
+   width: 100px;
+   background-color: darkblue;
+} 
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
